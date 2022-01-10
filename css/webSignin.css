@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.upperNav {
+  background: #327fbb;
+}
+.titleCust {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  text-shadow: -5px 10px 5px #444242, -5px 10px 5px rgb(64 64 169);
+  font-size: 48px;
+  font-weight: 700;
+}
+.footerNav {
+  background: #327fbb;
+}
+.footerNav p {
+  filter: brightness(4);
+}
+.navbar {
+  background: #97d4de !important;
+  width: 100%;
+}
+.navBrandCust {
+  transition: 1s ease all;
+}
+.formCustom {
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 7px 0 #2a3136;
+  background: rgb(107, 189, 189);
+  width: 430px !important;
+}
+.form-control {
+  background: white !important;
+}
+.form-control:focus {
+  background: #d0b8b8 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .formCustom {
+    width: auto !important;
+  }
+}

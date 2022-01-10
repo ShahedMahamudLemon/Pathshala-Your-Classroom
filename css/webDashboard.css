@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background: #327fbb;
+}
+
+.navBrandCust {
+    color: wheat !important;
+}
+
+
+/* The sidepanel menu */
+
+.sidepanel {
+    height: -webkit-fill-available;
+    /* Specify a height */
+    width: auto;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background: #6c7fcc;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.3s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.mainav {
+    width: 100%;
+}
+
+.dboard {
+    display: inline-block;
+}
+
+.userName {
+    display: inline-block;
+    float: right;
+}
+
+.logout {
+    margin-left: 25%;
+}
+
+
+/* The sidepanel links */
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidepanel a:hover {
+    color: #8a3333;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style the button that is used to open the sidepanel */
+
+.openbtn {
+    font-size: 13px;
+    cursor: pointer;
+    background-color: white;
+    color: #384052;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: rgb(238, 241, 241);
+}
+
+.adminName {
+    top: 1rem;
+    right: 7rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.adminName:hover {
+    color: black;
+}
+
+textarea {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    font-size: 12px;
+}
+
+.cardCust {
+    box-shadow: 5px 5px 10px 4px rgb(139, 134, 134);
+    background-color: #cfd2d8;
+}
+
+.userComment p {
+    font-size: 13px;
+}
+
+.footerNav {
+    background: #327fbb;
+}
+
+.footerNav p {
+    filter: brightness(4);
+}
+
+.fDiv {
+    background-color: #00BFFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sDiv {
+    text-align: center;
+    border: 2px solid #DCDCDC;
+    border-bottom: 3px solid black;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .full_wrap {
+        display: grid !important;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .navbar-brand {
+        display: none !important;
+    }
+    .adminName {
+        margin-left: 30px !important;
+    }
+}

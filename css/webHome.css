@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.upperNav {
+  background: #327fbb;
+}
+.upperNavText {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+}
+.fabCust {
+  color: rgb(207, 207, 206);
+}
+.navBrandCust {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.backgroundCust {
+  background-size: cover;
+  height: 650px;
+  position: relative;
+  background-image: url(../images/backSkyCo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-attachment: fixed;
+}
+.topBannerOverlay {
+  position: absolute;
+  height: 650px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.navCust2 {
+  background: rgba(255, 255, 255, 0.1);
+}
+.navLinkCust {
+  color: #1b1e20 !important;
+  font-size: 15px;
+}
+.navLinkCust:hover {
+  color: #e72b2b !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+.titleCust {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  text-shadow: -5px 10px 5px #444242, -5px 10px 5px rgb(64 64 169);
+  font-size: 48px;
+  font-weight: 700;
+}
+.qouteTxt {
+  font-size: 24px;
+  font-style: italic;
+  color: aliceblue;
+}
+.qouteTxt span {
+  color: #543939;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btnCust {
+  display: inline-block;
+}
+.btnWrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.innerCard {
+  margin: 4px;
+  padding: 40px 20px 40px 20px;
+  background: rgba(228, 217, 217, 0.068);
+  box-shadow: 0 0 7px 0 #4c8bc5;
+}
+.innerCard:hover {
+  box-shadow: 0 0 15px 0 #175997;
+}
+.footerNav {
+  background: #327fbb;
+}
+.footerNav p {
+  filter: brightness(4);
+}
+@media screen and (max-width: 768px) {
+  .backgroundCust {
+    height: 700px !important;
+  }
+  .topBannerOverlay {
+    height: 700px !important;
+  }
+  .qouteTxt {
+    font-size: 15px !important;
+  }
+  .titleCust {
+    font-size: 36px !important;
+  }
+  .btnWrap {
+    margin-top: 6rem !important;
+  }
+  .btnSU {
+    margin-top: 1rem !important;
+    margin-left: 2rem !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .btnWrap {
+    margin-top: 6rem !important;
+    margin-bottom: 3rem;
+  }
+  .btnSU {
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+  }
+}
